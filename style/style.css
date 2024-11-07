@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start */
+.container {
+    padding: 50px 0;
+}
+.container h1 {
+    text-transform: capitalize;
+    color: #3A499C;
+    font-family: 'Montserrat Medium';
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+}
+.container p {
+    font-family: 'Nunito Sans Regular';
+    color: #6F6F6F;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+/* team */
+.container .team {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container .team .profile {
+    width: 230px;
+}
+.container .team .profile .img_profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #E4E9EF;
+}
+.container .team .profile .img_profile:hover {
+    cursor: zoom-in;
+    box-shadow: 0 0 10px black;
+    border: 2px solid #3A499C;
+}
+.container .team .profile h4 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.container .team .profile span {
+    font-size: 12px;
+    color: #404982;
+    font-family: 'Montserrat Medium';
+}
+.container .team .profile p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Monserrat thin';
+}
+.container .team .profile .link a {
+    text-decoration: none;
+    color: #828894;
+    margin: 0 3px;
+}
+.container .team .profile .link a:hover {
+    color: #3A499C;;
+}
+
+/* end */
